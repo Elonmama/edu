@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+        .container {
+            max-width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 400;
+            color: #262626;
+        }
+        input[type="text"], input[type="password"], button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3897f0;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357ae8;
+        }
+        .divider {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .divider hr {
+            border: none;
+            height: 1px;
+            width: 100%;
+            background-color: #ccc;
+        }
+        .or {
+            display: inline-block;
+            padding: 0 10px;
+            background-color: #fafafa;
+            position: relative;
+            top: -14px;
+            color: #999;
+        }
+        .signup {
+            text-align: center;
+        }
+        .signup a {
+            color: #3897f0;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Instagram</h1>
+        <form action="">
+            <input type="text" placeholder="Username or Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Log In</button>
+        </form>
+        <div class="divider">
+            <hr>
+            <span class="or">OR</span>
+            <hr>
+        </div>
+        <div class="signup">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>
+
